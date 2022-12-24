@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --color: #222327;
+    --active-color: #2196f3;
+}
+
+body{
+    background: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navigation{
+    width: 400px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navigation ul{
+    position: relative;
+    width: 350px;
+    display: flex;
+}
+
+.navigation ul li{
+    list-style: none;
+    width: 70px;
+    height: 60px;
+    z-index: 2;
+}
+
+.navigation ul li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.navigation ul li a .icon{
+    line-height: 65px;
+    color: var(--color);
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+
+.navigation ul li.active a .icon{
+    transform: translateY(-35px);
+    color: var(--active-color)
+}
+
+.navigation ul li a .text{
+    position: absolute;
+    background: var(--active-color);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 7px;
+    font-weight: 400px;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transform: translateY(15px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.navigation ul li.active a .text{
+    opacity: 1;
+    transform: translateY(-4px);
+}
+
+.indicator{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    top: -35px;
+    transition: 0.5s;
+}
+
+.indicator::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 1;
+    top: 5px;
+    left: -28px;
+    box-shadow: 15px 18px #fff;
+}
+
+.indicator::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 1;
+    top: 5px;
+    right: -28px;
+    box-shadow: -15px 18px #fff;
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator{
+    transform: translateX(calc(70px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator{
+    transform: translateX(calc(70px * 1));
+}
+.navigation ul li:nth-child(3).active ~ .indicator{
+    transform: translateX(calc(70px * 2));
+}
+.navigation ul li:nth-child(4).active ~ .indicator{
+    transform: translateX(calc(70px * 3));
+}
+.navigation ul li:nth-child(5).active ~ .indicator{
+    transform: translateX(calc(70px * 4));
+}

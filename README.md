@@ -26,14 +26,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/vRFEducation/html_navbars">
+    <p>First NavBar</p>
+    <br/>
     <img src="images/logo1.png" alt="Logo">
+    <p>Second NavBar</p>
+    <img src="images/logo2.png" alt="Logo">
+    <br/>
   </a>
 
 <h3 align="center">HTML/CSS Navigation Bars</h3>
 
   <p align="center">
     In this project I'm gonna create a collection of Navigation Bars using HTML/CSS. These NavBars can be used in a lot of scenarios and the techniques used in creations of them also can give you some hint for other use cases.
-    I got the main idea from a channel named @Online_Tutorial and then I create a tutorial over that with explanation for each part.    
+    I got the main idea from a channel named <b>@Online_Tutorial</b> and then I create a tutorial over that with explanation for each part.    
   </p>
 </div>
 
@@ -71,7 +76,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 [![Product Name Screen Shot][product-screenshot1]
-![Product Name Screen Shot][product-screenshot2]]
+ ![Product Name Screen Shot][product-screenshot2]]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -80,8 +85,8 @@
 
 ### Built With
 
-* [HTML]
-* [CSS]
+* HTML
+* CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,12 +153,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Vahid Rahmanifard - rahmanifard@live.com
 
-Project Link: [https://github.com/vRFEducation/vrangeselectorcollection](https://github.com/vRFEducation/html_navbars)
+Project Link: [https://github.com/vRFEducation/html_navbars](https://github.com/vRFEducation/html_navbars)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 [product-screenshot1]: images/Demo1.png
-
+[product-screenshot2]: images/Demo2.png
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/vrahmanifard
