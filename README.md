@@ -25,12 +25,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/vRFEducation/html_navbars">
+  <a href="https://github.com/vRFEducation/html_navbars/tree/main/NavigationDemo1">
     <p>First NavBar</p>
     <br/>
     <img src="images/logo1.png" alt="Logo">
+  </a>
+  <a href="https://github.com/vRFEducation/html_navbars/tree/main/NavigationDemo2">
     <p>Second NavBar</p>
-    <img src="images/logo2.png" alt="Logo">
+    <img src="images/Logo2.png" alt="Logo">
     <br/>
   </a>
 
